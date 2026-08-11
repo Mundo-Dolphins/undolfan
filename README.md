@@ -4,7 +4,7 @@ Un DolFan convierte publicaciones públicas de Bluesky de `undolfan.mundodolphin
 
 ## Arquitectura
 
-Bluesky -> importador Go -> Page Bundles Markdown -> Hugo -> GitHub Actions -> GitHub Pages -> `https://undolfan.mundodolphins.es`
+Bluesky -> importador Go -> Page Bundles Markdown -> Hugo -> GitHub Actions -> GitHub Pages -> `https://undolfan.mundodolphins.es/`
 
 El contenido importado vive en Git bajo `content/posts/YYYY/MM/<slug>/index.md`. Las imágenes se guardan en el mismo Page Bundle para no depender de la CDN de Bluesky tras la importación.
 
@@ -48,6 +48,18 @@ Build:
 
 ```sh
 hugo --minify
+```
+
+Build simulando el despliegue temporal en subcarpeta:
+
+```sh
+HUGO_BASEURL=https://mundodolphins.es/undolfan/ hugo --minify
+```
+
+Build simulando el futuro subdominio:
+
+```sh
+HUGO_BASEURL=https://undolfan.mundodolphins.es/ hugo --minify
 ```
 
 ## Importación Bluesky
@@ -103,10 +115,16 @@ El workflow de sync no depende de que un push hecho con `GITHUB_TOKEN` dispare o
 
 ## GitHub Pages Y Dominio
 
-Configura Pages para desplegar desde GitHub Actions y añade el dominio personalizado:
+Configura Pages para desplegar desde GitHub Actions. Mientras el sitio viva bajo subcarpeta, no hace falta tocar nada: los workflows usan por defecto:
 
 ```txt
-undolfan.mundodolphins.es
+mundodolphins.es/undolfan/
+```
+
+Cuando migres al subdominio, añade el dominio personalizado en GitHub Pages y configura la variable de repositorio o entorno `HUGO_BASEURL`:
+
+```txt
+https://undolfan.mundodolphins.es/
 ```
 
 No se incluye `CNAME` porque el dominio puede quedar configurado desde GitHub Pages.
