@@ -10,7 +10,9 @@
 }
 
 .site-header {
-  background: linear-gradient(180deg, color-mix(in srgb, var(--color-paper-soft) 82%, transparent), transparent);
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--color-orange) 12%, transparent), transparent 30rem),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-paper-soft) 82%, transparent), transparent);
   border-bottom: var(--rule);
 }
 
@@ -28,12 +30,16 @@
 }
 
 .brand {
-  color: var(--color-aqua-deep);
+  color: var(--color-ink-strong);
   font-size: clamp(1.4rem, 1.18rem + 0.9vw, 2rem);
   font-weight: 900;
   letter-spacing: 0.08em;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--color-orange);
+  text-decoration-thickness: 0.16em;
+  text-underline-offset: 0.18em;
   text-transform: uppercase;
+  text-shadow: 0 0 24px color-mix(in srgb, var(--color-aqua) 26%, transparent);
 }
 
 .primary-nav,
@@ -52,6 +58,7 @@
 
 .primary-nav a:hover,
 .footer-links a:hover {
+  color: var(--color-orange-soft);
   text-decoration-color: currentColor;
 }
 
@@ -67,7 +74,9 @@
   gap: var(--space-3);
   padding: var(--space-5) 0 var(--space-7);
   border-top: var(--rule);
-  background: linear-gradient(90deg, color-mix(in srgb, var(--color-aqua) 14%, transparent), transparent 28rem);
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--color-aqua) 14%, transparent), transparent 28rem),
+    linear-gradient(270deg, color-mix(in srgb, var(--color-orange) 10%, transparent), transparent 22rem);
   color: var(--color-muted);
   font-size: 0.95rem;
 }
