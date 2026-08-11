@@ -1,0 +1,44 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "cmd/**"
+      - "config/**"
+      - "content/**"
+      - "data/**"
+      - "internal/**"
+      - "layouts/**"
+      - "static/**"
+      - "go.mod"
+      - "go.sum"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    environment:
+      name: pr-preview
+      url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    env:
+      HUGO_BASEURL: ${{ vars.HUGO_BASEURL || 'https://mundodolphins.es/undolfan/' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache: true
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.164.0"
+          extended: true
+      - name: Test
+        run: go test ./...
+      - name: Build
+        run: hugo --minify
