@@ -88,4 +88,4 @@ jobs:
           path: ./public
       - id: deployment
         if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
