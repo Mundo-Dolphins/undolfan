@@ -1,0 +1,8 @@
+<article class="entry-list-item {{ .Params.content_type }}">
+  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format "2 Jan 2006" }}</time></p>
+  <div>
+    <h3 class="entry-list-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+  <p class="read-time">{{ .ReadingTime }} min</p>
+</article>

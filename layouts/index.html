@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+<section class="home-hero page-wide">
+  <p class="eyebrow">Publicación personal sobre Miami Dolphins</p>
+  <h1>Un DolFan</h1>
+  <p class="dek">Historias, análisis y opiniones sobre los Miami Dolphins.</p>
+</section>
+{{ with first 1 $posts }}
+  {{ range . }}
+    {{ partial "featured.html" . }}
+  {{ end }}
+{{ end }}
+<section class="page-wide" aria-labelledby="ultimos-articulos">
+  <h2 id="ultimos-articulos" class="section-heading">Últimos artículos</h2>
+  <div class="entry-list">
+    {{ range after 1 (first 16 $posts) }}
+      {{ partial "summary.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

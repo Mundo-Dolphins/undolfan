@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ if eq .Section "posts" }}
+  <article class="entry {{ .Params.content_type }}">
+    <header class="article-header">
+      {{ with .GetTerms "tags" }}
+        <nav class="tag-row" aria-label="Etiquetas">
+          {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+        </nav>
+      {{ end }}
+      <p class="eyebrow">{{ if eq .Params.content_type "short" }}Apunte{{ else }}Artículo{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+      <p class="meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format ":date_long" }}</time> · {{ .ReadingTime }} min · {{ .Params.bluesky_post_count }} post{{ if ne .Params.bluesky_post_count 1 }}s{{ end }}</p>
+    </header>
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+    {{ partial "bluesky-source.html" . }}
+    {{ partial "related.html" . }}
+  </article>
+{{ else }}
+  <article class="simple-page">
+    <header>
+      <p class="eyebrow">Un DolFan</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+    </header>
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
+{{ end }}

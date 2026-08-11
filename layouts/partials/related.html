@@ -1,0 +1,19 @@
+{{ $related := slice }}
+{{ with .GetTerms "tags" }}
+  {{ $tag := index . 0 }}
+  {{ $related = first 3 (where (where site.RegularPages "Section" "posts") "Permalink" "!=" $.Permalink | intersect $tag.Pages) }}
+{{ end }}
+{{ if lt (len $related) 1 }}
+  {{ with .PrevInSection }}{{ $related = $related | append . }}{{ end }}
+  {{ with .NextInSection }}{{ $related = $related | append . }}{{ end }}
+{{ end }}
+{{ with $related }}
+<aside class="related" aria-labelledby="mas-en-undolfan">
+  <h2 id="mas-en-undolfan" class="section-heading">Más en Un DolFan</h2>
+  <ul class="related-list">
+    {{ range first 3 . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</aside>
+{{ end }}

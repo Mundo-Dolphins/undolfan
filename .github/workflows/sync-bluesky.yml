@@ -1,0 +1,89 @@
+name: Sync Bluesky
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Synchronization mode
+        type: choice
+        required: true
+        default: normal
+        options:
+          - normal
+          - full
+      dry_run:
+        description: Run without writing or committing
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  actions: read
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bluesky-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache: true
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.164.0"
+          extended: true
+      - name: Test
+        run: go test ./...
+      - name: Sync
+        run: |
+          args=""
+          if [ "${{ github.event.inputs.mode }}" = "full" ]; then
+            args="$args --full"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            args="$args --dry-run"
+          fi
+          go run ./cmd/bluesky-importer sync $args
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content data
+          git commit -m "Sync Bluesky content"
+          git push origin main
+      - uses: actions/configure-pages@v5
+        if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+      - name: Build
+        if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: hugo --minify
+      - uses: actions/upload-pages-artifact@v5
+        if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        with:
+          path: ./public
+      - id: deployment
+        if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        uses: actions/deploy-pages@v4

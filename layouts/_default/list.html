@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ if eq .Section "posts" }}
+  <section class="simple-page">
+    <p class="eyebrow">Archivo</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+  </section>
+  <section class="page-wide archive" aria-label="Archivo de artículos">
+    {{ range (.Pages.GroupByDate "2006") }}
+      <section class="archive-year" aria-labelledby="year-{{ .Key }}">
+        <h2 id="year-{{ .Key }}">{{ .Key }}</h2>
+        {{ range (.Pages.GroupByDate "2006-01") }}
+          {{ $first := index .Pages 0 }}
+          <div class="archive-month">
+            <h3>{{ $first.Date | time.Format "January" }}</h3>
+            <ol>
+              {{ range .Pages }}
+                <li>
+                  <span class="day">{{ .Date.Format "02" }}</span>
+                  <span><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="meta">· {{ .ReadingTime }} min</span></span>
+                </li>
+              {{ end }}
+            </ol>
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
+  </section>
+{{ else if eq .Kind "term" }}
+  <section class="simple-page">
+    <p class="eyebrow">Etiqueta</p>
+    <h1>#{{ .Title }}</h1>
+  </section>
+  <section class="page-wide">
+    <div class="entry-list">
+      {{ range .Pages }}
+        {{ partial "summary.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ else }}
+  <section class="simple-page">
+    <p class="eyebrow">Un DolFan</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+  </section>
+  <section class="page-wide">
+    <div class="entry-list">
+      {{ range .Pages }}
+        {{ partial "summary.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+{{ end }}

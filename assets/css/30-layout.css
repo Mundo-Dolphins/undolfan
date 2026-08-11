@@ -1,0 +1,94 @@
+.site-shell,
+.site-main,
+.site-footer {
+  width: var(--wide);
+  margin-inline: auto;
+}
+
+.site-main {
+  padding: var(--space-7) 0 var(--space-8);
+}
+
+.site-header {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--color-paper-soft) 82%, transparent), transparent);
+  border-bottom: var(--rule);
+}
+
+.site-shell {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5) 0 var(--space-4);
+}
+
+.header-main {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.brand {
+  color: var(--color-aqua-deep);
+  font-size: clamp(1.4rem, 1.18rem + 0.9vw, 2rem);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.primary-nav,
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+}
+
+.primary-nav a,
+.footer-links a {
+  color: var(--color-ink);
+  font-size: 0.94rem;
+  text-decoration-color: transparent;
+}
+
+.primary-nav a:hover,
+.footer-links a:hover {
+  text-decoration-color: currentColor;
+}
+
+.site-claim {
+  max-width: 52ch;
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.site-footer {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5) 0 var(--space-7);
+  border-top: var(--rule);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--color-aqua) 14%, transparent), transparent 28rem);
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.page-narrow {
+  width: var(--content);
+  margin-inline: auto;
+}
+
+.page-wide {
+  width: var(--wide);
+  margin-inline: auto;
+}
+
+@media (max-width: 620px) {
+  .header-main {
+    display: grid;
+    gap: var(--space-3);
+  }
+}

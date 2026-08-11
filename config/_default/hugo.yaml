@@ -1,0 +1,31 @@
+baseURL: https://undolfan.mundodolphins.es/
+title: Un DolFan
+locale: es-ES
+defaultContentLanguage: es
+timeZone: Europe/Madrid
+enableRobotsTXT: true
+summaryLength: 32
+
+params:
+  description: Historias, análisis y opiniones sobre los Miami Dolphins.
+  locale: es_ES
+
+permalinks:
+  posts: /:year/:month/:slug/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+taxonomies:
+  tag: tags
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+
+sitemap:
+  changefreq: daily
+  priority: 0.5
