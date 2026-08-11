@@ -77,7 +77,7 @@ jobs:
           git add content data
           git commit -m "Sync Bluesky content"
           git push origin main
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
       - name: Build
         if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
