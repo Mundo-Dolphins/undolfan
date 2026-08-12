@@ -1,6 +1,11 @@
 {{ with .Params.bluesky_url }}
 <aside class="source-box" aria-label="Origen en Bluesky">
-  <p>Este artículo fue publicado originalmente como hilo en Bluesky.</p>
-  <a class="read-link" href="{{ . }}" rel="noopener noreferrer">Ver hilo original -></a>
+  {{ if eq $.Params.content_type "article" }}
+    <p>Este artículo fue publicado originalmente como hilo en Bluesky.</p>
+    <a class="read-link" href="{{ . }}" rel="noopener noreferrer">Ver hilo original -></a>
+  {{ else }}
+    <p>Este apunte fue publicado originalmente en Bluesky.</p>
+    <a class="read-link" href="{{ . }}" rel="noopener noreferrer">Ver post original -></a>
+  {{ end }}
 </aside>
 {{ end }}
