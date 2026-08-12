@@ -2,7 +2,7 @@
 {{ with .Params.images }}{{ $image = index . 0 }}{{ end }}
 <article class="featured page-wide{{ if not $image }} no-image{{ end }}">
   <div>
-    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format "2 Jan 2006" }}</time> · {{ .ReadingTime }} min</p>
+    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format "2 Jan 2006" }}</time> · {{ .ReadingTime }} min de lectura</p>
     <h2 class="featured-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}
     <a class="read-link" href="{{ .RelPermalink }}">Leer artículo -></a>
