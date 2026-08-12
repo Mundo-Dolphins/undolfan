@@ -1,9 +1,11 @@
 <footer class="site-footer">
-  <p><strong>Un DolFan</strong> · Mundo Dolphins</p>
-  <nav class="footer-links" aria-label="Enlaces secundarios">
-    <a href="{{ "index.xml" | relURL }}">RSS</a>
-    <a href="https://bsky.app/profile/undolfan.mundodolphins.es" rel="noopener noreferrer">Bluesky</a>
-    <a href="https://mundodolphins.es" rel="noopener noreferrer">mundodolphins.es</a>
-  </nav>
-  <p>&copy; {{ now.Format "2006" }} Un DolFan.</p>
+  <div class="site-footer-inner">
+    <p><strong>Un DolFan</strong> · Mundo Dolphins</p>
+    <nav class="footer-links" aria-label="Enlaces secundarios">
+      <a href="{{ "index.xml" | relURL }}">RSS</a>
+      <a href="https://bsky.app/profile/undolfan.mundodolphins.es" rel="noopener noreferrer">Bluesky</a>
+      <a href="https://mundodolphins.es" rel="noopener noreferrer">mundodolphins.es</a>
+    </nav>
+    <p>&copy; {{ now.Format "2006" }} Un DolFan.</p>
+  </div>
 </footer>

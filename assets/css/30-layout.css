@@ -1,6 +1,6 @@
 .site-shell,
 .site-main,
-.site-footer {
+.site-footer-inner {
   width: var(--wide);
   margin-inline: auto;
 }
@@ -70,9 +70,7 @@
 }
 
 .site-footer {
-  display: grid;
-  gap: var(--space-3);
-  padding: var(--space-5) 0 var(--space-7);
+  margin-top: var(--space-8);
   border-top: var(--rule);
   background:
     linear-gradient(90deg, color-mix(in srgb, var(--color-aqua) 14%, transparent), transparent 28rem),
@@ -81,8 +79,23 @@
   font-size: 0.95rem;
 }
 
+.site-footer-inner {
+  display: grid;
+  gap: var(--space-5);
+  padding: var(--space-8) 0;
+  line-height: 1.55;
+}
+
 .site-footer p {
   margin: 0;
+}
+
+.site-footer .footer-links {
+  gap: var(--space-4) var(--space-6);
+}
+
+.site-footer .footer-links a {
+  line-height: 1.4;
 }
 
 .page-narrow {
