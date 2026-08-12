@@ -89,6 +89,7 @@ jobs:
         if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         env:
           GH_TOKEN: ${{ secrets.SYNC_BOT_TOKEN }}
+          ACTIONS_TOKEN: ${{ github.token }}
         run: |
           git config user.name "javiyt"
           git config user.email "javiyt@users.noreply.github.com"
@@ -98,19 +99,19 @@ jobs:
           git push --force origin HEAD:"$SYNC_BRANCH"
           head_sha="$(git rev-parse HEAD)"
 
-          gh api "repos/${{ github.repository }}/statuses/$head_sha" \
+          GH_TOKEN="$ACTIONS_TOKEN" gh api "repos/${{ github.repository }}/statuses/$head_sha" \
             -f state=success \
             -f context="Validate PR / validate" \
             -f description="Go tests and Hugo build passed in Sync Bluesky" \
             -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-          deployment_id="$(gh api "repos/${{ github.repository }}/deployments" \
+          deployment_id="$(GH_TOKEN="$ACTIONS_TOKEN" gh api "repos/${{ github.repository }}/deployments" \
             -f ref="$head_sha" \
             -f environment="pr-preview" \
             -F auto_merge=false \
             -f description="Validated Hugo build for PR" \
             --jq ".id")"
-          gh api "repos/${{ github.repository }}/deployments/$deployment_id/statuses" \
+          GH_TOKEN="$ACTIONS_TOKEN" gh api "repos/${{ github.repository }}/deployments/$deployment_id/statuses" \
             -f state=success \
             -f environment="pr-preview" \
             -f description="Go tests and Hugo build passed" \
