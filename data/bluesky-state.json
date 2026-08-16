@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-08-16T18:55:51.471815196Z",
+  "last_sync": "2026-08-16T20:26:26.868363281Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -6783,6 +6783,12 @@
       "post_count": 2,
       "last_seen": "2026-08-16T17:58:52.153164448Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sc23": {
+      "slug": "con-tantas-plazas-en-juego-tabor-es-consciente-de-que-todos-estan-luch",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-16T20:26:02.72966517Z"
+    },
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msb455kc3k27": {
       "slug": "dt-rene-konga-estara-fuera-toda-la-temporada-por-lesion-austin-jackson",
       "content_type": "short",
@@ -7094,6 +7100,18 @@
       "content_type": "article",
       "post_count": 3,
       "last_seen": "2026-08-16T17:59:13.429865498Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7vg3mg3c2x": {
+      "slug": "gronowski-ha-vuelto-a-ser-firmado-ya-que-ewers-sufre-problemas-en-su-i",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-16T20:26:26.789815379Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7vigiiv22x": {
+      "slug": "hafley-ha-confirmado-que-jamaree-salyer-se-perdera-toda-la-temporada-2",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-16T20:26:26.868304061Z"
     },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
@@ -8918,6 +8936,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6s723": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxmddh223",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sa23": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sa23",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sb23": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sa23",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sc23": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msaqxme6sc23",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msb455kc3k27": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msb455kc3k27",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msb6hogbg22j": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msb6hogbg22j",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msbux6mhtc2f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msbux6mhtc2f",
@@ -9112,6 +9131,8 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7px5srnc25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7px5srnc25",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7px5t5ec25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7px5srnc25",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7px5t6dk25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7px5srnc25",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7vg3mg3c2x": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7vg3mg3c2x",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7vigiiv22x": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt7vigiiv22x",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
