@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-08-18T13:51:49.782309143Z",
+  "last_sync": "2026-08-18T19:41:36.46724627Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -6891,6 +6891,12 @@
       "post_count": 2,
       "last_seen": "2026-08-18T13:51:46.612125519Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45xa325": {
+      "slug": "la-hoja-de-ruta-es-clara-construir-principalmente-a-traves-del-draft-y",
+      "content_type": "article",
+      "post_count": 2,
+      "last_seen": "2026-08-18T19:41:28.498581029Z"
+    },
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msf4gpufls23": {
       "slug": "dolphins-han-firmado-por-un-ano-a-dt-fatorma-mulbah-de-acuerdo-a-su-ag",
       "content_type": "short",
@@ -7214,6 +7220,18 @@
       "content_type": "short",
       "post_count": 1,
       "last_seen": "2026-08-18T13:51:49.782263695Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtexlfwpr223": {
+      "slug": "juju-brents-ha-vuelto-a-los-entrenamientos-despues-de-semana-y-media",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-18T19:41:36.3328076Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtexoiuzzk23": {
+      "slug": "darrell-baker-jr-y-storm-duck-han-sido-vistos-hoy-en-la-banda-durante",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-18T19:41:36.467184675Z"
     },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
@@ -9073,8 +9091,8 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45was25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45was25",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45xa225": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45was25",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45xa325": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45y7d25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45xa325": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45xa325",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45y7d25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45xa325",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45y7e25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45y7f25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu45z6n25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3msdgu3abz225",
@@ -9268,6 +9286,8 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtdisacyik2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtdisacyik2k",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mted5yt53s26": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mted5yt53s26",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtedaqccdk26": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtedaqccdk26",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtexlfwpr223": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtexlfwpr223",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtexoiuzzk23": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtexoiuzzk23",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
