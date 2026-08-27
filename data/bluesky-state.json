@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-08-26T22:11:17.758803204Z",
+  "last_sync": "2026-08-27T23:49:32.119006105Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -7299,6 +7299,12 @@
       "post_count": 2,
       "last_seen": "2026-08-26T22:11:14.874389548Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2qus2m": {
+      "slug": "y-aqui-esta-lo-verdaderamente-interesante-no-hablamos-simplemente-de-q",
+      "content_type": "article",
+      "post_count": 2,
+      "last_seen": "2026-08-27T23:49:29.269067885Z"
+    },
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4u6zdzms25": {
       "slug": "la-liga-impone-a-troy-aikman-las-mismas-restricciones-que-a-brady-debi",
       "content_type": "short",
@@ -7640,6 +7646,12 @@
       "content_type": "short",
       "post_count": 1,
       "last_seen": "2026-08-26T22:11:17.758744454Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mu3kkdzsa22d": {
+      "slug": "tutu-atwell-enviado-a-rams-a-cambio-de-rb-jarquez-hunter",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-27T23:49:32.118937316Z"
     },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
@@ -9655,8 +9667,8 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2nx22m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2bas2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2owc2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2bas2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2pvk2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2pvk2m",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2qus2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2pvk2m",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2ru22m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2bas2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2qus2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2qus2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2ru22m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2qus2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2stc2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2bas2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2tsk2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2bas2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2urs2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mt4pvg2bas2m",
@@ -9852,6 +9864,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtz3q4hkrc2j": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtz3q4gtdc2j",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtz46bhoqk2f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtz46bhoqk2f",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtz5fr3uqs2f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtz5fr3uqs2f",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mu3kkdzsa22d": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mu3kkdzsa22d",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
