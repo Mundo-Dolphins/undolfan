@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-08-30T21:29:18.35936006Z",
+  "last_sync": "2026-08-31T07:36:30.002053017Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -7575,6 +7575,12 @@
       "post_count": 3,
       "last_seen": "2026-08-24T18:03:26.501775177Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvrsk2d": {
+      "slug": "lb-kenneth-murray-27-oklahoma-1-ronda-2020-chargers-23-2025-dal-17-jue",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-08-31T07:36:23.300465518Z"
+    },
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmnw7ods2d": {
       "slug": "quinn-ewers-ha-vuelto-hoy-a-los-entrenamientos-y-chris-bell-esta-entre",
       "content_type": "short",
@@ -7808,6 +7814,24 @@
       "content_type": "article",
       "post_count": 11,
       "last_seen": "2026-08-30T21:29:18.359289288Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m": {
+      "slug": "miami-ya-tiene-su-roster-inicial-de-53-los-movimientos-finales-del-dom",
+      "content_type": "article",
+      "post_count": 11,
+      "last_seen": "2026-08-31T07:36:29.636302015Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m": {
+      "slug": "que-viene-ahora-los-jugadores-enviados-a-waivers-pueden-ser-reclamados",
+      "content_type": "article",
+      "post_count": 5,
+      "last_seen": "2026-08-31T07:36:29.791361502Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m": {
+      "slug": "ya-conocemos-a-los-53-jugadores-que-forman-el-roster-inicial-de-los-mi",
+      "content_type": "article",
+      "post_count": 11,
+      "last_seen": "2026-08-31T07:36:30.001992153Z"
     },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
@@ -9947,7 +9971,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtrl3lbudk2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mtrl3lbudk2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvf4c2d": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvf4c2d",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvqtc2d": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvf4c2d",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvrsk2d": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvf4c2d",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvrsk2d": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmlvvrsk2d",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmnw7ods2d": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttmnw7ods2d",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttslmgcwc2i": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttslmgcwc2i",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttslmgpmk2i": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mttslmgcwc2i",
@@ -10113,6 +10137,33 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mud4akrcms2g": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mud4akqgck2g",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mud4akrdm22g": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mud4akqgck2g",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mud4akrelc2g": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mud4akqgck2g",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpyxs2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpzx22m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpzx32m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq2wd2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq2we2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq2wf2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq2wg2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq2wh2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq2wi2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hq3vq2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue33hpkd22m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yau3v2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yav352m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yav362m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yav372m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue37yakdf2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj2u72m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj2ua2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj3ti2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj3tj2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj4sr2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj4ss2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj4st2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj4su2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj4sv2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3lbj5s52m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mue3l5z7qx2m",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
