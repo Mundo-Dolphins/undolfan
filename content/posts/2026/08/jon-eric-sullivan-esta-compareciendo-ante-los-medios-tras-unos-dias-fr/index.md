@@ -2,14 +2,14 @@
 title: "Jon-Eric Sullivan está compareciendo ante los medios tras unos días frenéticos en la construcción del roster"
 slug: "jon-eric-sullivan-esta-compareciendo-ante-los-medios-tras-unos-dias-fr"
 date: 2026-08-31T20:42:44+00:00
-lastmod: 2026-08-31T20:50:40+00:00
+lastmod: 2026-08-31T20:56:23+00:00
 description: "Jon-Eric Sullivan está compareciendo ante los medios tras unos días frenéticos en la construcción del roster de Miami. Voy a ir recogiendo en este hilo las declaraciones"
 draft: false
 content_type: "article"
 bluesky_url: "https://bsky.app/profile/undolfan.mundodolphins.es/post/3mufrg3gykk2h"
 bluesky_root_uri: "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mufrg3gykk2h"
 bluesky_root_cid: "bafyreieoxwrcwl2mp4wa4y5m3s6ob2jb7pbp3aronteyqptq2sscbml6mi"
-bluesky_post_count: 8
+bluesky_post_count: 10
 tags: []
 images: []
 ---
@@ -70,3 +70,17 @@ Muy buenas noticias sobre Chris Bell.
 Sullivan revela que Miami esperaba inicialmente recuperar al rookie WR después de la semana de descanso.
 
 Que Bell esté ya de vuelta es, según el GM, un reconocimiento tanto a su trabajo como al de todas las personas implicadas en su rehabilitación.
+
+
+---
+
+Sullivan deja clara la filosofía con la que quiere construir los Dolphins:
+“Seremos un equipo de draft y desarrollo”.
+Miami será selectivo con los jugadores que incorpore desde fuera y la intención será desarrollar y pagar a los jugadores que formen el núcleo del equipo.
+
+
+---
+
+Y uno de los jugadores sobre los que Sullivan deposita grandes esperanzas es Chop Robinson.
+“Tengo grandes expectativas para Chop”.
+El EDGE afronta su tercera temporada en Miami y, pese al cambio de régimen, Sullivan deja claro que lo considera una pieza importante de esta defensa.
