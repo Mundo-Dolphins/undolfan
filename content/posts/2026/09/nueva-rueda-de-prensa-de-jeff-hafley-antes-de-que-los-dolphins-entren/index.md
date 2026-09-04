@@ -2,14 +2,14 @@
 title: "Nueva rueda de prensa de Jeff Hafley antes de que los Dolphins entren en la recta final hacia la Week 1"
 slug: "nueva-rueda-de-prensa-de-jeff-hafley-antes-de-que-los-dolphins-entren"
 date: 2026-09-03T16:07:06+00:00
-lastmod: 2026-09-03T16:07:06+00:00
+lastmod: 2026-09-04T11:53:26+00:00
 description: "Nueva rueda de prensa de Jeff Hafley antes de que los Dolphins entren en la recta final hacia la Week 1. Willis, Jordan Phillips, la batalla entre Taaffe y Trader,"
 draft: false
 content_type: "article"
 bluesky_url: "https://bsky.app/profile/undolfan.mundodolphins.es/post/3mumtfy7vj22f"
 bluesky_root_uri: "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mumtfy7vj22f"
 bluesky_root_cid: "bafyreigrhyibtvg7mbhpac3bxqiy4ijdgsouqmu56fpbujnnnrymjwboje"
-bluesky_post_count: 11
+bluesky_post_count: 12
 tags: []
 images: []
 ---
@@ -87,3 +87,8 @@ Los Raiders arrancarán con Kirk Cousins por delante del rookie Fernando Mendoza
 ---
 
 En conjunto, la rueda de prensa deja otra vez el mensaje que Hafley ha repetido durante todo el verano: construir hábitos y una identidad antes de que empiecen a contar los resultados.
+
+
+---
+
+Gracias, intentaré mantenerlos todo el año
