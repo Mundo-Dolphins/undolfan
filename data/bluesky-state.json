@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-09-07T16:40:40.328467473Z",
+  "last_sync": "2026-09-07T20:08:59.095453424Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -7833,6 +7833,12 @@
       "post_count": 2,
       "last_seen": "2026-08-29T22:29:54.830647141Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3wim2k": {
+      "slug": "ayer-hubo-al-menos-un-par-de-long-snaps-en-punts-que-dejaron-bastantes",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-09-07T20:08:51.257625493Z"
+    },
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivos227": {
       "slug": "movimiento-importante-durante-el-cutdown-miami-traspasa-al-qb-quinn-ew",
       "content_type": "article",
@@ -8060,6 +8066,12 @@
       "content_type": "article",
       "post_count": 4,
       "last_seen": "2026-09-06T21:45:31.148864794Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muxarfv6js22": {
+      "slug": "los-dolphins-ya-tienen-capitanes-para-2026-elegidos-por-votacion-del-v",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-09-07T20:08:59.095381257Z"
     },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
@@ -10326,7 +10338,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muarmt22vu2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muarmszo7l2k",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muarmt23v42k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muarmszo7l2k",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3oom2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3oom2k",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3wim2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3oom2k",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3wim2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muas2f3wim2k",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivos227": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivos227",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivykk27": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivos227",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivzjs27": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muatsivos227",
@@ -10519,6 +10531,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muut7amzvc2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muut7amp5k2k",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muut7an2uk2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muut7amp5k2k",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muut7an3ts2k": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muut7amp5k2k",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muxarfv6js22": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3muxarfv6js22",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
