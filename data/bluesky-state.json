@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-09-24T21:14:50.40337935Z",
+  "last_sync": "2026-09-25T08:08:55.07761824Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -8409,6 +8409,12 @@
       "post_count": 10,
       "last_seen": "2026-09-15T10:06:30.201939184Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr72f": {
+      "slug": "en-lesiones-kyle-louis-se-perdera-seguro-el-partido-ante-san-francisco",
+      "content_type": "article",
+      "post_count": 2,
+      "last_seen": "2026-09-25T08:08:49.251759723Z"
+    },
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvl5zd55s22r": {
       "slug": "caleb-douglas-nominado-al-premio-rookie-de-la-semana",
       "content_type": "short",
@@ -8678,6 +8684,30 @@
       "content_type": "article",
       "post_count": 11,
       "last_seen": "2026-09-24T21:14:50.403343133Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd3tgu6rs2b": {
+      "slug": "chop-robinson-confirma-que-tras-sufrir-tres-conmociones-en-11-meses-a",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-09-25T08:08:54.348207837Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b": {
+      "slug": "segundo-injury-report-de-la-semana-antes-del-dolphins-chiefs-miami-man",
+      "content_type": "article",
+      "post_count": 8,
+      "last_seen": "2026-09-25T08:08:54.734885443Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd5zeh7ns23": {
+      "slug": "el-domingo-miami-vestira-de-blanco",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-09-25T08:08:54.969558958Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd657b3jc23": {
+      "slug": "tambien-hemos-sabido-que-chris-bell-ha-sufrido-molestias-en-su-rodilla",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-09-25T08:08:55.077540715Z"
     },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
@@ -11240,8 +11270,8 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr42f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdova522f",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr52f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdova522f",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr62f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdova522f",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr72f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdova522f",
-    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpra2f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdova522f",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr72f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr72f",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpra2f": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvjzdovpr72f",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvl5zd55s22r": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvl5zd55s22r",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvl6264iqk2r": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvl6264iqk2r",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvlaslmix22p": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mvlaslmix22p",
@@ -11420,6 +11450,17 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwbz4ojna425": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwbz4oj6lc25",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwbz4ojo7e25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwbz4oj6lc25",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwbz4ojo7f25": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwbz4oj6lc25",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd3tgu6rs2b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd3tgu6rs2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgp722b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgs4s2b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgt422b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgt432b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgu3d2b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgu3e2b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47qgv2m2b": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd47o5s6s2b",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd5zeh7ns23": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd5zeh7ns23",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd657b3jc23": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mwd657b3jc23",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
