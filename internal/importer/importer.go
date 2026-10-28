@@ -195,7 +195,12 @@ func candidateRoots(feed []bluesky.Post) []bluesky.Post {
 	var roots []bluesky.Post
 	for _, post := range feed {
 		if post.Record.Reply != nil {
+			// The author feed can omit posts of a thread, so the parent being
+			// absent from the feed does not mean it is not ours.
 			if parent, ok := byURI[post.Record.Reply.Parent.URI]; ok && sameAuthor(parent, post) {
+				continue
+			}
+			if uriAuthor(post.Record.Reply.Parent.URI) == post.Author.DID && post.Author.DID != "" {
 				continue
 			}
 		}
@@ -409,6 +414,15 @@ func uniqueSlug(st *state.State, base, rootURI string) string {
 		slug = fmt.Sprintf("%s-%d", base, i)
 	}
 	return slug
+}
+
+// uriAuthor returns the repo (DID) part of an at:// URI.
+func uriAuthor(uri string) string {
+	rest := strings.TrimPrefix(uri, "at://")
+	if i := strings.Index(rest, "/"); i >= 0 {
+		return rest[:i]
+	}
+	return rest
 }
 
 func sameAuthor(a, b bluesky.Post) bool {
