@@ -41,5 +41,8 @@ jobs:
           extended: true
       - name: Test
         run: go test ./...
+      - name: Test Cloudflare worker
+        run: npm test
+        working-directory: cloudflare/sync-trigger
       - name: Build
         run: hugo --minify
