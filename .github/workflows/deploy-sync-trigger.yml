@@ -1,0 +1,28 @@
+name: Deploy sync trigger worker
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cloudflare/sync-trigger/**"
+      - ".github/workflows/deploy-sync-trigger.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-trigger-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: cloudflare/sync-trigger
+          command: deploy
