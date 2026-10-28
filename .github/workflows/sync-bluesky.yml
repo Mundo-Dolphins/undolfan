@@ -38,7 +38,7 @@ jobs:
       HUGO_BASEURL: ${{ vars.HUGO_BASEURL || 'https://mundodolphins.es/undolfan/' }}
       SYNC_BRANCH: sync/bluesky-content
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           ref: main
           token: ${{ secrets.SYNC_BOT_TOKEN }}
@@ -54,11 +54,11 @@ jobs:
         run: |
           git fetch origin "$SYNC_BRANCH"
           git checkout -B "$SYNC_BRANCH" FETCH_HEAD
-      - uses: actions/setup-go@v7
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
         with:
           go-version-file: go.mod
           cache: true
-      - uses: peaceiris/actions-hugo@v3
+      - uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3
         with:
           hugo-version: "0.164.0"
           extended: true

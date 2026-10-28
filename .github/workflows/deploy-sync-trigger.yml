@@ -19,13 +19,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: cloudflare/sync-trigger/.node-version
+          cache: npm
+          cache-dependency-path: cloudflare/sync-trigger/package-lock.json
+      - name: Install
+        run: npm ci
+        working-directory: cloudflare/sync-trigger
       - name: Test
         run: npm test
         working-directory: cloudflare/sync-trigger
-      - uses: cloudflare/wrangler-action@v3
+      - uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: cloudflare/sync-trigger
+          packageManager: npm
           command: deploy
