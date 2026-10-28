@@ -187,6 +187,23 @@ func TestAuthorReplyToThirdCanBecomeOwnArticle(t *testing.T) {
 	}
 }
 
+func TestReplyWhoseOwnParentIsMissingFromFeedIsNotARoot(t *testing.T) {
+	a := post("at://did:plc:author/app.bsky.feed.post/a", "A root", "")
+	b := reply("at://did:plc:author/app.bsky.feed.post/b", "B reply", a, a)
+	c := reply("at://did:plc:author/app.bsky.feed.post/c", "C reply", a, b)
+	// The author feed sometimes omits a post of the thread (here b).
+	dir := t.TempDir()
+	client := &fakeClient{
+		pages:   [][]bluesky.Post{{a, c}},
+		threads: map[string]bluesky.ThreadResponse{a.URI: thread(a, b, c), c.URI: thread(c)},
+	}
+	if _, err := New(client).Sync(context.Background(), Config{RepoRoot: dir, Actor: "undolfan.mundodolphins.es", Full: true}); err != nil {
+		t.Fatal(err)
+	}
+	md := onlyIndex(t, dir)
+	assertContains(t, md, "bluesky_post_count: 3")
+}
+
 func TestIdempotentSecondSync(t *testing.T) {
 	a := post("at://did:author/app.bsky.feed.post/a", "A", "")
 	dir, res := runSync(t, []bluesky.Post{a}, thread(a), false)
