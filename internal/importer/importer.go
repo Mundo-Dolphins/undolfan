@@ -136,6 +136,11 @@ func (im *Importer) Sync(ctx context.Context, cfg Config) (Result, error) {
 			dirtyState = true
 		}
 		for _, post := range own {
+			// A post can show up in the thread of several roots; the first one
+			// keeps it so the mapping does not flip-flop (and dirty the state) on every run.
+			if _, claimed := seenURIs[post.URI]; claimed {
+				continue
+			}
 			seenURIs[post.URI] = root.URI
 			if st.ImportedURIs[post.URI] != root.URI {
 				st.ImportedURIs[post.URI] = root.URI
