@@ -226,6 +226,28 @@ func TestIdempotentSecondSync(t *testing.T) {
 	}
 }
 
+func TestPostClaimedByTwoRootsDoesNotDirtyStateOnResync(t *testing.T) {
+	a := post("at://did:author/app.bsky.feed.post/a", "A", "")
+	b := post("at://did:author/app.bsky.feed.post/b", "B", "")
+	threads := map[string]bluesky.ThreadResponse{a.URI: thread(a), b.URI: thread(b, a)}
+	sync := func(dir string, now time.Time) {
+		t.Helper()
+		im := New(&fakeClient{pages: [][]bluesky.Post{{a, b}}, threads: threads})
+		im.now = func() time.Time { return now }
+		if _, err := im.Sync(context.Background(), Config{RepoRoot: dir, Actor: "undolfan.mundodolphins.es", Full: true}); err != nil {
+			t.Fatal(err)
+		}
+	}
+	dir := t.TempDir()
+	statePath := filepath.Join(dir, "data", "bluesky-state.json")
+	sync(dir, time.Date(2026, 8, 1, 12, 0, 0, 0, time.UTC))
+	before := read(t, statePath)
+	sync(dir, time.Date(2026, 8, 1, 12, 5, 0, 0, time.UTC))
+	if after := read(t, statePath); before != after {
+		t.Fatalf("state changed on resync without new posts\nbefore:%s\nafter:%s", before, after)
+	}
+}
+
 func TestEditedPostUpdatesExistingBundleAndState(t *testing.T) {
 	a := post("at://did:author/app.bsky.feed.post/a", "A", "")
 	dir, _ := runSync(t, []bluesky.Post{a}, thread(a), false)
