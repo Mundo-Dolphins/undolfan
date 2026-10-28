@@ -2,7 +2,8 @@ name: Sync Bluesky
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    # Respaldo del disparador externo (cloudflare/sync-trigger); minutos fuera de los picos de :00/:10
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       mode:
