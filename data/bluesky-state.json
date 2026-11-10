@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-11-10T10:36:14.666210179Z",
+  "last_sync": "2026-11-10T16:41:09.66607098Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -9045,6 +9045,12 @@
       "post_count": 11,
       "last_seen": "2026-11-10T10:36:14.666155628Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzxusvkaw227": {
+      "slug": "zach-sieler-fuera-todo-lo-que-resta-de-temporada-debido-a-una-rotura-d",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-11-10T16:41:09.666025001Z"
+    },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
       "content_type": "short",
@@ -12317,6 +12323,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzx6c5bkhv2s": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzx6c5bapa2s",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzx6c5bkhw2s": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzx6c5bapa2s",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzx6c5bkhx2s": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzx6c5bapa2s",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzxusvkaw227": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3mzxusvkaw227",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
