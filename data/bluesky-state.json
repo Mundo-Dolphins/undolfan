@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-11-14T18:31:12.920685484Z",
+  "last_sync": "2026-11-14T22:31:09.148480931Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -9177,6 +9177,18 @@
       "post_count": 1,
       "last_seen": "2026-11-14T18:31:12.92061408Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2ck5wrovc2e": {
+      "slug": "el-lucas-oil-stadium-tendra-su-techo-cerrado-para-el-partido-contra-mi",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-11-14T22:31:09.114355287Z"
+    },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2ckb5bmvk2e": {
+      "slug": "debido-a-los-problemas-sufridos-ayer-en-el-trafico-aereo-de-eeuu-la-nf",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-11-14T22:31:09.148403778Z"
+    },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
       "content_type": "short",
@@ -12481,6 +12493,8 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n27yt3tnyk2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n27yt3tnyk2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n27z3hbrek2m": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n27z3hbrek2m",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2c4yz3k3p2h": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2c4yz3k3p2h",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2ck5wrovc2e": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2ck5wrovc2e",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2ckb5bmvk2e": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2ckb5bmvk2e",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
