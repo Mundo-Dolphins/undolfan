@@ -1,7 +1,7 @@
 {
   "version": 1,
   "actor": "undolfan.mundodolphins.es",
-  "last_sync": "2026-11-25T18:56:09.196563341Z",
+  "last_sync": "2026-11-25T19:31:06.870088167Z",
   "roots": {
     "at://did:plc:2ita5o32hmjxhnzg4a7sxe73/app.bsky.feed.post/3lbudd4qcvk24": {
       "slug": "former-pro-bowl-lb-shaq-barrett-who-announced-his-retirement-from-the",
@@ -9453,6 +9453,12 @@
       "post_count": 1,
       "last_seen": "2026-11-25T18:56:09.19651498Z"
     },
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35vb2vp7k2z": {
+      "slug": "dante-trader-jr-asegura-que-podra-jugar-el-domingo-que-esa-es-su-inten",
+      "content_type": "short",
+      "post_count": 1,
+      "last_seen": "2026-11-25T19:31:06.870051402Z"
+    },
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": {
       "slug": "update-nfl-transactions-for-11-25-2024-nfltransactions-nflnews-nfl-nfl",
       "content_type": "short",
@@ -12889,6 +12895,7 @@
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2z2hpcbvn2e": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n2z2hpcbvn2e",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35iliejr224": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35iliejr224",
     "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35tez2ljs2z": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35tez2ljs2z",
+    "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35vb2vp7k2z": "at://did:plc:b4gbufyiqbgjgooeuz6hblpc/app.bsky.feed.post/3n35vb2vp7k2z",
     "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p": "at://did:plc:dgktjhiwqjibyuwfzb2y43is/app.bsky.feed.post/3lbufkbwlvj2p",
     "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o": "at://did:plc:hlvr2omhnmvdmfnvmcuhyevz/app.bsky.feed.post/3lbxk2etufc2o",
     "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q": "at://did:plc:ifg2jcjc5nlrfcsilgzyy6xw/app.bsky.feed.post/3lbzntxhuw32q",
